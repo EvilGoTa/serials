@@ -1,0 +1,11 @@
+.disable-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.card-gradient {
+    background: linear-gradient(60deg, #039be5, #0277bd);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(3, 155, 229, 0.4);
+}
+
+.img-responsive,.img-thumbnail,.table,label{max-width:100%}
+.img-responsive{display:block;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.6;border:1px solid #ddd;border-radius:4px;transition:all .2s ease-in-out;display:inline-block;height:auto}.img-circle{border-radius:50%}hr{margin-top:22px;margin-bottom:22px;border-top:1px solid #eee}

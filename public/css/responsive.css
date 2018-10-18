@@ -1,0 +1,150 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	.serail_attrs_wrapper {
+		padding-right: 15px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	h1 {
+		font-size: 35px;
+	}
+	h2, h2.page-header {
+		font-size: 25px;
+	}
+	.logo {
+		width: 100%;
+		max-width: 100px;
+		height: auto;
+	}
+	.top-header {
+		height: auto;
+	}
+	.home-header {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.serial-title h3 {
+		font-weight: 100;
+    	line-height: 1.6em;
+    	font-size: 1.3em;
+	}
+	.serial_attrs .attr-bar {
+		height: 25px;
+	}
+	.xs-no-padding {
+		padding: 0;
+	}
+	.xs-no-padding-left {
+		padding-left: 0;
+	}
+	.xs-no-padding-right {
+		padding-right: 0;
+	}
+	.mark-dialog .mark-title {
+        margin-top: 42px;
+        font-size: 2em;
+        line-height: 1.2em;
+	}
+    .mark-dialog .mark-close {
+        top: 17px;
+        right: 17px;
+    }
+
+    .mark-progress-wrapper {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .mark-dialog .btn {
+        /*display: block;*/
+    }
+
+    .mark-buttons-wrapper {
+        text-align: center;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*flex-wrap: wrap;*/
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	
+	#side-menu {
+		width: 320px;
+	}
+	.header-first-row .menu-button {
+		margin-left: -15px;
+	}
+	.home-header {
+		font-size: .8em;
+	}
+	.top-header h1 {
+		
+	}
+    #side-menu ul {
+        padding: 0;
+    }
+
+    #side-menu .menu-buttons-wrapper {
+        padding: 0;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    #side-menu .logout_button {
+        float: none;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	/**/
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+	/**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+	/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+	/**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+	/**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+	/**/
+	.bd-example-modal-lg .modal-dialog {
+		width: 1000px;
+	}
+
+	.bd-example-modal-lg .modal-dialog .yt-iframe{
+		height: 450px;
+	}
+	
+}
